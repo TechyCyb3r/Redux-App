@@ -15,3 +15,11 @@ export const withdrawMoney = (amount) => {
         })
     }
 }
+
+export const resetMoney = (amount) => {
+    return (dispatch) => {
+        dispatch({
+            type: 'reset',
+        })
+    }
+}
